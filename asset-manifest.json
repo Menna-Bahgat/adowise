@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/adowise/static/css/main.897120cb.css",
+    "main.js": "/adowise/static/js/main.a6aa1809.js",
+    "static/js/453.68319ea7.chunk.js": "/adowise/static/js/453.68319ea7.chunk.js",
+    "static/media/Group 1.png": "/adowise/static/media/Group 1.5bf9107da2f759be0325.png",
+    "static/media/Group 2.png": "/adowise/static/media/Group 2.1c8bb9af923316c7ad96.png",
+    "static/media/output-onlinepngtools(2) 1.png": "/adowise/static/media/output-onlinepngtools(2) 1.28d4b675d34103603020.png",
+    "index.html": "/adowise/index.html",
+    "main.897120cb.css.map": "/adowise/static/css/main.897120cb.css.map",
+    "main.a6aa1809.js.map": "/adowise/static/js/main.a6aa1809.js.map",
+    "453.68319ea7.chunk.js.map": "/adowise/static/js/453.68319ea7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.897120cb.css",
+    "static/js/main.a6aa1809.js"
+  ]
+}
