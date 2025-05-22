@@ -1,0 +1,857 @@
+.all-card{
+ display: flex;
+  align-items: flex-start;
+  justify-content: center;  
+  background-image: url("../Group 1.png"), url("../Group 2.png");
+  background-repeat: no-repeat , no-repeat;
+  background-position: left top , right bottom;
+  background-size: 15rem, 15rem;
+  height: 100%;
+}
+.left-card .Card{
+    background-color: #b9b5dfc9;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    max-width: 300px;
+}
+.Card h1, p{
+    color: white;
+    text-align: left;
+}
+ h1{
+    font-size: 35px;
+    
+}
+ p{
+    font-size: 10px;
+    
+}
+.btn{
+    background: rgb(116,161,240);
+    background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+    color: white!important;
+    font-size: 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+
+}
+.title{
+    background-image: url("../Group\ 1.png");
+    background-repeat: no-repeat , no-repeat;
+    background-position:right bottom ;
+    background-size: 20rem, 15rem;
+    height: 100vh;
+    width: 50%;
+    padding-left: 35px;
+    
+}
+.title h1{
+    text-align: left;
+    font-size: 70px;
+    
+}
+.right-card{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    padding:20px;
+}
+.two-card{
+    max-width: 40rem;
+    height: auto;
+    border-radius: 20px;
+    line-height: 1.1;
+    border: solid 1.5px #ccc;
+}
+.image-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img{
+    padding: 10px;
+    width: 160px;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 120px;
+}
+.image-card p{
+    font-size: 27px;
+    font-weight: 600;
+}
+.p-card p{
+    color: #aaa;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.send{
+    background: rgb(116,161,240);
+    background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+    color: white!important;
+    border: 0;
+    outline: 0;
+    padding: 5px 20px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.photo{
+    width: 80%;
+}
+.Arrow{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+.Arrow .ArrowDropUpIcon{
+    padding: 0;
+    font-size: 150px;
+    color: #8D7DDC;
+    margin-right: 15rem;
+}
+@media (min-width: 1201px) {
+    .all-card {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;  
+        background-image: url("../Group 1.png"), url("../Group 2.png");
+        background-repeat: no-repeat , no-repeat;
+        background-position: left top , right bottom;
+        background-size: 20rem, 15rem;
+        height: 100%;
+        width: 100%;
+    }
+  .right-card {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .two-card {
+        max-width: 90%;
+        height: auto;
+        padding:20px;
+
+    }
+    .btn{
+        background: rgb(116,161,240);
+        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+        color: white!important;
+        font-size: 50px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        border-radius: 40px;
+        box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+
+    }
+  .img{
+        padding: 10px;
+        width: 200px;
+        overflow: hidden;
+        border-radius: 20px;
+        height: 160px;
+    }
+    .image-card p{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .p-card p{
+        color: #aaa;
+        font-size: 40px;
+    }
+
+  .Arrow .ArrowDropUpIcon {
+    font-size: 100px;
+    margin-right: 5rem;
+  }
+  .left-card .Card{
+    background-color: #b9b5dfc9;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
+    margin-left: 100px;
+    min-width:  50rem;
+    height: 60rem;
+
+}
+    .Card p{
+       
+        text-align: left;
+        font-size: 50px;
+    }
+    h1{
+        font-size: 100px;
+    }
+    
+    .last p{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 50px;
+    }
+    .title{
+        background-image: url("../Group\ 1.png");
+        background-repeat: no-repeat , no-repeat;
+        background-position:right bottom ;
+        background-size: 75rem, 15rem;
+        height: 100vh;
+        width: 80%;
+        padding-left: 35px;
+        
+    }
+    .title h1{
+        text-align: left;
+        font-size: 150px;
+        
+    }
+    .Arrow{
+        text-align: right;
+        display: flex;
+        justify-content: flex-end; 
+        align-items: center;
+    }
+    .Arrow .ArrowDropUpIcon{
+        padding: 0;
+        font-size: 250px;
+        color: #8D7DDC;
+        margin-right: 35rem;
+    }
+    .send{
+        background: rgb(116,161,240);
+        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+        color: white!important;
+        border: 0;
+        outline: 0;
+        padding: 20px 20px;
+        height: auto;
+        border-radius: 40px;
+        font-size: 40px;
+        width: 30%;
+    }
+}
+@media (max-width: 1440px) {
+    .all-card {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;  
+        background-image: url("../Group 1.png"), url("../Group 2.png");
+        background-repeat: no-repeat , no-repeat;
+        background-position: left top , right bottom;
+        background-size: 20rem, 15rem;
+        height: 100%;
+        width: 100%;
+    }
+
+    .title {
+        width: 100%;
+        height: auto;
+    }
+    .right-card {
+        min-width: 50%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+  .two-card {
+        max-width: 100%;
+        height: auto;
+        padding:20px;
+
+    }
+    .btn{
+        background: rgb(116,161,240);
+        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+        color: white!important;
+        font-size: 20px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        border-radius: 40px;
+        box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+
+    }
+  .img{
+        padding: 10px;
+        width: 140px;
+        overflow: hidden;
+        border-radius: 20px;
+        height: 160px;
+    }
+    .image-card p{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .p-card p{
+        color: #aaa;
+        font-size: 30px;
+    }
+
+    .Arrow{
+        text-align: right;
+        display: flex;
+        justify-content: flex-end; 
+        align-items: center;
+    }
+    .Arrow .ArrowDropUpIcon{
+        padding: 0;
+        font-size: 200px;
+        color: #8D7DDC;
+        margin-right: 15rem;
+    }
+    .left-card .Card{
+        background-color: #b9b5dfc9;
+        border-radius: 20px;
+        box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
+        margin-left: 20px;
+        min-width: 25rem;
+        height: 30rem;
+
+    }
+    .Card  p{
+        
+        text-align: left;
+        font-size: 20px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .send{
+        background: rgb(116,161,240);
+        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+        color: white!important;
+        border: 0;
+        outline: 0;
+        width: 20%;
+        padding: 20px 20px;
+        height: auto;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+    .last p{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+    }
+    .title{
+        background-image: url("../Group\ 1.png");
+        background-repeat: no-repeat , no-repeat;
+        background-position:right bottom ;
+        background-size: 40rem, 15rem;
+        height: 100vh;
+        width: 80%;
+        padding-left: 35px;
+        
+    }
+    .title h1{
+        text-align: left;
+        font-size: 50px;
+        
+    }
+}
+@media (max-width: 1024px) {
+    .all-card {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;  
+        background-image: url("../Group 1.png"), url("../Group 2.png");
+        background-repeat: no-repeat , no-repeat;
+        background-position: left top , right bottom;
+        background-size: 20rem, 15rem;
+        height: 100%;
+        width: 100%;
+    }
+
+  .title {
+    width: 100%;
+    height: auto;
+  }
+  .right-card {
+    min-width: 60%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .two-card {
+        max-width: 100%;
+        height: auto;
+        padding:20px;
+
+    }
+    .btn{
+        background: rgb(116,161,240);
+        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+        color: white!important;
+        font-size: 20px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+        border-radius: 40px;
+        box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+    }
+  .img{
+        padding: 10px;
+        width: 180px;
+        overflow: hidden;
+        border-radius: 20px;
+        height: 100px;
+        object-fit: contain;
+    }
+    .image-card p{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .p-card p{
+        color: #aaa;
+        font-size: 20px;
+    }
+
+  .Arrow{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+.Arrow .ArrowDropUpIcon{
+    /* padding: 0; */
+    font-size: 200px;
+    color: #8D7DDC;
+    margin-right: 15rem;
+}
+  .left-card .Card{
+    background-color: #b9b5dfc9;
+    border-radius: 20px;
+    box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    min-width: 10rem;
+    height: 25rem;
+}
+    .Card  p{
+        text-align: left;
+        font-size: 15px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .send{
+        background: rgb(116,161,240);
+        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+        color: white!important;
+        border: 0;
+        outline: 0;
+        width: 40%;
+        padding: 20px 20px;
+        height: auto;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+    .last p{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+    }
+    .title{
+        background-image: url("../Group\ 1.png");
+        background-repeat: no-repeat , no-repeat;
+        background-position:right bottom ;
+        background-size: 40rem, 15rem;
+        height: 100vh;
+        width: 100%;
+        padding-left: 35px;
+        
+    }
+    .title h1{
+        text-align: left;
+        font-size: 60px;
+        
+    }
+    .photo{
+        width: 50%;
+    }
+}
+@media (max-width: 768px) {
+    .all-card {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;  
+        background-image: url("../Group 1.png"), url("../Group 2.png");
+        background-repeat: no-repeat , no-repeat;
+        background-position: left top , right bottom;
+        background-size: 20rem, 15rem;
+        height: 100%;
+        width: 80%;
+    }
+
+  .title {
+    width: 100%;
+    height: auto;
+  }
+  .right-card {
+    min-width: 65%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+    .two-card {
+        /* padding: 20px; */
+        max-width:100%;
+        height: auto;
+        border-radius: 20px;
+        border: solid 1.5px #ccc;
+    }
+  .img{
+        width: 50px;
+        overflow: hidden;
+        border-radius: 20px;
+        height: 50px;
+        object-fit: contain;
+    }
+    .image-card p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .p-card p{
+        color: #aaa;
+        font-size: 15px;
+    }
+
+  .Arrow{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+.Arrow .ArrowDropUpIcon{
+    font-size: 190px;
+    color: #8D7DDC;
+    margin-right: 10rem;
+}
+  .left-card .Card{
+    background-color: #b9b5dfc9;
+    border-radius: 20px;
+    box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
+    margin-left: 50px;
+    min-width: 5rem;
+    height: 23rem;
+        margin-left: 150px;
+
+}
+    .Card p{
+        /* color: white; */
+        text-align: left;
+        font-size: 17px;
+    }
+    .Card h1{
+        font-size: 20px;
+    }
+    .send{
+        background: rgb(116,161,240);
+        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+        color: white!important;
+        border: 0;
+        outline: 0;
+        width: 40%;
+        padding: 10px 10px;
+        height: auto;
+        border-radius: 50px;
+        font-size: 15px;
+    }
+    .last p{
+        /* display: flex; */
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 15px;
+    }
+    .title{
+        background-image: url("../Group\ 1.png");
+        background-repeat: no-repeat , no-repeat;
+        background-position:right bottom ;
+        background-size: 20rem, 15rem;
+        height: 100vh;
+        width: 80%;
+    
+    }
+    .title h1{
+        text-align: left;
+        font-size: 50px;
+        /* padding:0px 40px; */
+        margin-left: 100px;
+        
+    }
+    .btn{
+        background: rgb(116,161,240);
+        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+        color: white!important;
+        font-size: 15px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+        border-radius: 40px;
+        box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+    }
+    .photo{
+         width: 60%;
+    }
+}
+@media ( max-width: 450px) {
+    .all-card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-image: url("../Group 1.png"), url("../Group 2.png");
+        background-repeat: no-repeat , no-repeat;
+        background-position: left top , right bottom;
+        background-size: 20rem, 15rem;
+        height: 100%;
+        max-width: 100%;
+    }
+    .right-card {
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+        padding:0px;
+
+    }
+    .two-card {
+        max-width:100%;
+        height: auto;
+        border-radius: 20px;
+        border: solid 1.5px #ccc;
+    }
+  .img{
+        width: 100px;
+        overflow: hidden;
+        border-radius: 20px;
+        height: 50px;
+        object-fit: contain;
+    }
+    .image-card p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .p-card p{
+        color: #aaa;
+        font-size: 15px;
+    }
+    .left-card .Card{
+        background-color: #b9b5dfc9;
+        border-radius: 20px;
+        box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
+        min-width: 10rem;
+        height: 25rem;
+        margin-left: 50px;
+    }
+    .Card p{
+        font-size: 20px;
+    }
+    .Card h1{
+        font-size: 25px;
+    }
+    .send{
+        background: rgb(116,161,240);
+        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+        color: white!important;
+        border: 0;
+        outline: 0;
+        width: 30%;
+        padding: 10px 10px;
+        height: auto;
+        border-radius: 20px;
+        font-size: 13px;
+    }
+    .last p{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 15px;
+        padding: 0px;
+    }
+    .title{
+        background-image: url("../Group\ 1.png");
+        background-repeat: no-repeat , no-repeat;
+        background-position:right bottom ;
+        background-size: 20rem, 15rem;
+        height: 100vh;
+        width: 50%;    
+        padding-left: 20px;
+
+    }
+    .title h1{
+        text-align: left;
+        font-size: 50px;
+    }
+    .btn{
+        background: rgb(116,161,240);
+        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+        color: white!important;
+        font-size: 20px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        border-radius: 40px;
+        box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+    }
+    .photo{
+        width: 40%;
+    }
+    
+.Arrow .ArrowDropUpIcon{
+    padding: 0;
+    font-size: 150px;
+    color: #8D7DDC;
+    margin-right: 9rem;
+}
+}
+ @media ( max-width: 380px) { 
+    .all-card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-image: url("../Group 1.png"), url("../Group 2.png");
+        background-repeat: no-repeat , no-repeat;
+        background-position: left top , right bottom;
+        background-size: 20rem, 15rem;
+        height: 100%;
+        min-width: 30%;
+    }
+    .right-card {
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 75px;
+        padding:0px;
+
+    }
+    .two-card {
+        min-width:100%;
+        height: auto;
+        border-radius: 20px;
+        border: solid 1.5px #ccc;
+    }
+  .img{
+        width: 100px;
+        overflow: hidden;
+        border-radius: 20px;
+        height: 50px;
+        object-fit: contain;
+    }
+    .image-card p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .p-card p{
+        color: #aaa;
+        font-size: 15px;
+    }
+    .left-card .Card{
+        background-color: #b9b5dfc9;
+        border-radius: 20px;
+        box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
+        max-width: 20rem;
+        height: 20rem;
+        margin-left: 100px;
+    }
+    .Card p{
+        font-size: 15px;
+    }
+    .Card h1{
+        font-size: 20px;
+    }
+    .send{
+        background: rgb(116,161,240);
+        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+        color: white!important;
+        border: 0;
+        outline: 0;
+        width: 30%;
+        padding: 10px 10px;
+        height: auto;
+        border-radius: 20px;
+        font-size: 13px;
+    }
+    .last p{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 15px;
+        padding: 0px;
+    }
+    .title{
+        background-image: url("../Group\ 1.png");
+        background-repeat: no-repeat , no-repeat;
+        background-position:right bottom ;
+        background-size: 20rem, 15rem;
+        height: 100vh;
+        width: 70%;    
+        padding-left: 20px;
+
+    }
+    .title h1{
+        text-align: left;
+        font-size: 30px;
+    }
+    .btn{
+        background: rgb(116,161,240);
+        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
+        color: white!important;
+        font-size: 15px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+        border-radius: 40px;
+        box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+    }
+    .photo{
+        width: 40%;
+    }
+    .Arrow{
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+.Arrow .ArrowDropUpIcon{
+    padding: 0;
+    font-size: 150px;
+    color: #8D7DDC;
+    margin-right: 7rem;
+}
+} 
+

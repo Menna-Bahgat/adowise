@@ -1,0 +1,79 @@
+.footer{
+    width: 100%;
+    color: white;
+    border-radius: 20px;
+    background: rgb(138,128,222);
+    background: linear-gradient(90deg, rgba(138,128,222,1) 0%, rgba(116,161,240,1) 100%);
+}
+.footleft{
+    padding:0px 10px;
+    border-right: solid 2px white;
+    margin-top: 25px;
+}
+.foots{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input{
+    width: 90%;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.148);
+    border: none;
+    outline: 0;
+    border-radius: 10px;
+    color: white!important;
+    padding: 0px 10px;
+}
+.input::placeholder{
+    color: white;
+}
+.head{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+.head h1{
+    font-size: 50px;
+}
+.head img{
+    object-fit: contain;
+    height: 100px;
+}
+.footleft p{
+    color: white;
+}
+.footleft span{
+    text-align: left;
+}
+.footright p{
+    color: white;
+}
+.icon{
+    text-align: left;
+    display: flex;
+    align-items:normal;
+    justify-content: space-between;
+}
+.tree{
+    top: 192rem;
+    width: 150px;
+}
+@media ( max-width: 450px) { 
+    .head h1{
+        font-size: 20px;
+    }
+} 
+@media ( max-width: 380px) { 
+    .head h1{
+        font-size: 20px;
+    }
+    .tree{
+        width: 75px;
+    }
+    .footright p{
+        color: white;
+        font-size: 12px;
+    }
+} 

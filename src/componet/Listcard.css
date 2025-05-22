@@ -1,0 +1,309 @@
+.container{
+    width: 100%;
+    height: auto;
+}
+.listcards{
+    width: 308%;
+    background-image: url("../Group\ 1.png");
+    background-repeat: no-repeat ;
+    background-position:  left top ;
+    background-size: 30rem;
+    height: auto;
+    padding-left: 30px;
+    margin-bottom: 150px;
+    
+}
+.listcards .list-card{
+    max-width: 500px;
+    height: auto;
+    border-radius: 30px;
+}
+p{
+    color: black;
+    font-size: 21px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image p{
+    font-weight: 700;
+}
+.image small{
+    color: #797575;
+    font-size: 13px;
+}
+img{
+    width: 60px;
+    margin-right: 20px;
+}
+.rating h3{
+    text-align: left;
+    line-height: 0;
+}
+.rating .starOutlineIcon{
+    font-size: 100px;
+}
+.list-card{
+    margin-bottom: 20px;
+}
+@media (min-width: 1201px){
+    .listcards .list-card{
+        max-width: 50%;
+        height: auto;
+        border-radius: 30px;
+        padding: 20px;
+
+    }
+    .listcards{
+        width: 150%;
+        background-image: url("../Group\ 1.png");
+        background-repeat: no-repeat ;
+        background-position:  left top ;
+        background-size: 30rem;
+        height: auto;
+        padding-left: 30px;
+        margin-bottom: 150px;
+        
+    }
+    .rating h3{
+        font-size: 40px;
+    }
+    .rating .starOutlineIconx,h3{
+        text-align: left;
+        font-size: 30px;
+    }
+    img{
+        width: 150px;
+        object-fit: contain;
+        margin-right: 20px;
+    }
+    .image p{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .image small{
+        color: #797575;
+        font-size: 30px;
+    }
+    .p-content p{
+        font-size: 40px;
+    }
+    
+}
+@media (max-width: 1440px){
+    .listcards .list-card{
+        max-width: 70%;
+        height: auto;
+        border-radius: 30px;
+        padding: 20px;
+
+    }
+    .listcards{
+        width: 150%;
+        background-image: url("../Group\ 1.png");
+        background-repeat: no-repeat ;
+        background-position:  left top ;
+        background-size: 30rem;
+        height: auto;
+        margin-bottom: 150px;
+        
+    }
+    .rating h3{
+        font-size: 30px;
+    }
+    .rating .MuiSvgIcon-root{
+        text-align: left;
+        font-size: 30px;
+    }
+    img{
+        width: 90px;
+        object-fit: contain;
+    }
+    .image p{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .image small{
+        color: #797575;
+        font-size: 20px;
+    }
+    .p-content p{
+        font-size: 25px;
+    }
+    
+}
+@media (max-width: 1024px){
+    .listcards .list-card{
+        max-width: 100%;
+        height: auto;
+        border-radius: 30px;
+        padding: 20px;
+
+    }
+    .listcards{
+        width: 150%;
+        background-image: url("../Group\ 1.png");
+        background-repeat: no-repeat ;
+        background-position:  left top ;
+        background-size: 30rem;
+        height: auto;
+        margin-bottom: 150px;
+        
+    }
+    .rating h3{
+        font-size: 30px;
+    }
+    .rating .MuiSvgIcon-root{
+        text-align: left;
+        font-size: 30px;
+    }
+    img{
+        width: 90px;
+        object-fit: contain;
+    }
+    .image p{
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .image small{
+        color: #797575;
+        font-size: 20px;
+    }
+    .p-content p{
+        font-size: 25px;
+    }
+    
+}
+@media (max-width: 768px){
+    .listcards .list-card{
+        max-width: 60%;
+        height: auto;
+        border-radius: 30px;
+        padding: 20px;
+    }
+    .listcards{
+        width: 150%;
+        background-image: url("../Group\ 1.png");
+        background-repeat: no-repeat ;
+        background-position:  left top ;
+        background-size: 30rem;
+        height: auto;
+        margin-bottom: 150px;
+        margin-left: 100px;
+        
+    }
+    .rating h3{
+        font-size: 15px;
+    }
+    .rating .MuiSvgIcon-root{
+        text-align: left;
+        font-size: 15px;
+    }
+    img{
+        width: 50px;
+        object-fit: contain;
+    }
+    .image p{
+        font-weight: 700;
+        font-size: 10px;
+    }
+    .image small{
+        color: #797575;
+        font-size: 10px;
+    }
+    .p-content p{
+        font-size: 15px;
+    }
+    
+}
+@media (max-width: 450px){
+    .listcards .list-card{
+        max-width: 80%;
+        height: auto;
+        border-radius: 30px;
+        padding: 20px;
+    }
+    .listcards{
+        width: 100%;
+        background-image: url("../Group\ 1.png");
+        background-repeat: no-repeat ;
+        background-position:  left top ;
+        background-size: 40rem;
+        height: auto;
+        margin-bottom: 150px;
+        margin-left: 30px;
+        
+    }
+    .rating h3{
+        font-size: 15px;
+    }
+    .rating .MuiSvgIcon-root{
+        text-align: left;
+        font-size: 15px;
+    }
+    img{
+        width: 50px;
+        object-fit: contain;
+    }
+    .image p{
+        font-weight: 700;
+        font-size: 10px;
+    }
+    .image small{
+        color: #797575;
+        font-size: 10px;
+    }
+    .p-content p{
+        font-size: 15px;
+    }
+    
+}
+@media (max-width: 380px){
+    .listcards .list-card{
+        max-width: 100%;
+        height: auto;
+        border-radius: 30px;
+        padding: 20px;
+    }
+    .listcards{
+        width: 100%;
+        background-image: url("../Group\ 1.png");
+        background-repeat: no-repeat ;
+        background-position:  left top ;
+        background-size: 40rem;
+        height: auto;
+        margin-bottom: 150px;
+        margin-left: 0px;
+        
+    }
+    .rating h3{
+        font-size: 15px;
+    }
+    .rating .MuiSvgIcon-root{
+        text-align: left;
+        font-size: 10px;
+    }
+    img{
+        width: 50px;
+        object-fit: contain;
+    }
+    .image p{
+        font-weight: 700;
+        font-size: 10px;
+    }
+    .image small{
+        color: #797575;
+        font-size: 10px;
+    }
+    .p-content p{
+        font-size: 15px;
+    }
+    
+}
