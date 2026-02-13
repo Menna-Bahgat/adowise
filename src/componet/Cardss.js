@@ -19,7 +19,7 @@ const Cardss = () => {
   return (
     <div className='cardsss'>
         <div className='Arrow'>
-            <ArrowDropUpIcon className='ArrowDropUpIcon'/>
+            {/* <ArrowDropUpIcon className='ArrowDropUpIcon'/> */}
         </div>
         <div className='all-card'>
             <div className='left-card'>
@@ -55,11 +55,11 @@ const Cardss = () => {
                             <p>
                                 Unlock Your Dream Job with My Referral Service<br></br>
                                 <span>₹10 4.2</span>
-                            <StarOutlineIcon/>
-                            <StarOutlineIcon/>
-                            <StarOutlineIcon/>
-                            <StarOutlineIcon/>
-                            <StarOutlineIcon/>
+                            <StarOutlineIcon className='ArrowDropUpIcon'/>
+                            <StarOutlineIcon className='ArrowDropUpIcon'/>
+                            <StarOutlineIcon className='ArrowDropUpIcon'/>
+                            <StarOutlineIcon className='ArrowDropUpIcon'/>
+                            <StarOutlineIcon className='ArrowDropUpIcon'/>
                             </p>
                         </div>
                     </div>
@@ -79,11 +79,11 @@ const Cardss = () => {
                             <p>
                                 Unlock Your Dream Job with My Referral Service<br></br>
                                 <span>₹10 4.2</span>
-                            <StarOutlineIcon/>
-                            <StarOutlineIcon/>
-                            <StarOutlineIcon/>
-                            <StarOutlineIcon/>
-                            <StarOutlineIcon/>
+                            <StarOutlineIcon className='ArrowDropUpIcon'/>
+                            <StarOutlineIcon className='ArrowDropUpIcon'/>
+                            <StarOutlineIcon className='ArrowDropUpIcon'/>
+                            <StarOutlineIcon className='ArrowDropUpIcon'/>
+                            <StarOutlineIcon className='ArrowDropUpIcon'/>
                             </p>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ const Cardss = () => {
                     </CardContent>
                 </Card> 
                 <div className='Arrow'>
-                    <ArrowDropDownIcon className='ArrowDropUpIcon'/>
+                    {/* <ArrowDropDownIcon className='ArrowDropUpIcon'/> */}
                 </div>
                 <img src={arrow} className='photo'/>
             </div>

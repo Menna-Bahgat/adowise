@@ -31,8 +31,8 @@ const Footer = () => {
                     </Grid>
                     <Grid item xs={4}>
                         <div className='footright'>
-                            <p>About us  <span style={{marginLeft:"70px"}}> Pricing</span></p>
-                            <p>Contact Us <span style={{marginLeft:"70px"}}> Blog</span></p>
+                            <p>About us</p>
+                            <p>Contact Us</p>
                             <p>Terms & Conditions</p>
                             <p>Privacy </p>
                             <div className='icon'>

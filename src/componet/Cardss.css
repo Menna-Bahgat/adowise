@@ -1,857 +1,184 @@
+.cardsss{
+  width: 100%;
+  overflow: hidden;
+}
+
+
 .all-card{
- display: flex;
+  display: flex;
+  justify-content: center;
   align-items: flex-start;
-  justify-content: center;  
+  gap: 60px;
+  padding: 80px 20px;
+  flex-wrap: wrap;
   background-image: url("../Group 1.png"), url("../Group 2.png");
   background-repeat: no-repeat , no-repeat;
   background-position: left top , right bottom;
-  background-size: 15rem, 15rem;
-  height: 100%;
+  background-size: 12rem, 12rem;
 }
-.left-card .Card{
-    background-color: #b9b5dfc9;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
-    margin-left: 20px;
-    max-width: 300px;
-}
-.Card h1, p{
-    color: white;
-    text-align: left;
-}
- h1{
-    font-size: 35px;
-    
-}
- p{
-    font-size: 10px;
-    
-}
-.btn{
-    background: rgb(116,161,240);
-    background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-    color: white!important;
-    font-size: 30px;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-    border-radius: 40px;
-    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
 
-}
-.title{
-    background-image: url("../Group\ 1.png");
-    background-repeat: no-repeat , no-repeat;
-    background-position:right bottom ;
-    background-size: 20rem, 15rem;
-    height: 100vh;
-    width: 50%;
-    padding-left: 35px;
-    
-}
-.title h1{
-    text-align: left;
-    font-size: 70px;
-    
-}
+
+.left-card,
 .right-card{
-    width: 100%;
-    flex-direction: column;
-    display: flex;
-    align-items: flex-end;
-    padding:20px;
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
 }
+
+
+.left-card .Card{
+  background: linear-gradient(135deg, #8A80DE 0%, #74A1F0 100%);
+  padding: 35px;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px rgba(138,128,222,0.25);
+  width:80%;
+  max-width: 380px;
+}
+
+.Card h1{
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.Card p{
+  font-size: 15px;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+
+.btn{
+  background: white;
+  color: #8A80DE;
+  border: none;
+  padding: 14px;
+  width: 100%;
+  border-radius: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.title{
+  width: 100%;
+  max-width: 500px;
+}
+
+.title h1{
+  font-size: clamp(30px, 5vw, 65px);
+  line-height: 1.1;
+  font-weight: 700;
+  color: #222;
+}
+
+
 .two-card{
-    max-width: 40rem;
-    height: auto;
-    border-radius: 20px;
-    line-height: 1.1;
-    border: solid 1.5px #ccc;
+  width: 80%;
+  border-radius: 25px;
+  padding: 0px 20px;
+  background: #ffffff;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+  border: 1px solid rgba(138,128,222,0.12);
 }
+
+
 .image-card{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
+
 .img{
-    padding: 10px;
-    width: 160px;
-    overflow: hidden;
-    border-radius: 20px;
-    height: 120px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 18px;
 }
+
 .image-card p{
-    font-size: 27px;
-    font-weight: 600;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  text-align: left;
 }
+
+/* ================= DESCRIPTION ================= */
+
 .p-card p{
-    color: #aaa;
+  color: #666;
+  font-size: 15px;
+  line-height: 1.7;
+  margin-top: 15px;
 }
+
+/* ================= FOOTER ================= */
+
 .last{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
 }
+
 .send{
-    background: rgb(116,161,240);
-    background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-    color: white!important;
-    border: 0;
-    outline: 0;
-    padding: 5px 20px;
-    height: 40px;
-    border-radius: 20px;
-    font-size: 20px;
+  background: linear-gradient(90deg, #74A1F0 0%, #8A80DE 100%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
 }
-.photo{
-    width: 80%;
-}
+
+/* ================= ARROWS ================= */
+
 .Arrow{
-    text-align: right;
-    display: flex;
-    justify-content: flex-end; 
+  display: flex;
+  justify-content: center;
+}
+
+ .ArrowDropUpIcon{
+  font-size: 10px;
+  color: #8D7DDC;
+}
+
+/* ================= PHOTO ================= */
+
+.photo{
+  width: 60%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px){
+
+  .all-card{
+    flex-direction: column;
     align-items: center;
-}
-.Arrow .ArrowDropUpIcon{
-    padding: 0;
-    font-size: 150px;
-    color: #8D7DDC;
-    margin-right: 15rem;
-}
-@media (min-width: 1201px) {
-    .all-card {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;  
-        background-image: url("../Group 1.png"), url("../Group 2.png");
-        background-repeat: no-repeat , no-repeat;
-        background-position: left top , right bottom;
-        background-size: 20rem, 15rem;
-        height: 100%;
-        width: 100%;
-    }
-  .right-card {
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
+    gap: 50px;
   }
 
-  .two-card {
-        max-width: 90%;
-        height: auto;
-        padding:20px;
-
-    }
-    .btn{
-        background: rgb(116,161,240);
-        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-        color: white!important;
-        font-size: 50px;
-        border: 0;
-        outline: 0;
-        cursor: pointer;
-        padding: 20px;
-        text-align: center;
-        width: 100%;
-        border-radius: 40px;
-        box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
-
-    }
-  .img{
-        padding: 10px;
-        width: 200px;
-        overflow: hidden;
-        border-radius: 20px;
-        height: 160px;
-    }
-    .image-card p{
-        font-size: 40px;
-        font-weight: 600;
-    }
-    .p-card p{
-        color: #aaa;
-        font-size: 40px;
-    }
-
-  .Arrow .ArrowDropUpIcon {
-    font-size: 100px;
-    margin-right: 5rem;
-  }
-  .left-card .Card{
-    background-color: #b9b5dfc9;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
-    margin-left: 100px;
-    min-width:  50rem;
-    height: 60rem;
-
-}
-    .Card p{
-       
-        text-align: left;
-        font-size: 50px;
-    }
-    h1{
-        font-size: 100px;
-    }
-    
-    .last p{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 50px;
-    }
-    .title{
-        background-image: url("../Group\ 1.png");
-        background-repeat: no-repeat , no-repeat;
-        background-position:right bottom ;
-        background-size: 75rem, 15rem;
-        height: 100vh;
-        width: 80%;
-        padding-left: 35px;
-        
-    }
-    .title h1{
-        text-align: left;
-        font-size: 150px;
-        
-    }
-    .Arrow{
-        text-align: right;
-        display: flex;
-        justify-content: flex-end; 
-        align-items: center;
-    }
-    .Arrow .ArrowDropUpIcon{
-        padding: 0;
-        font-size: 250px;
-        color: #8D7DDC;
-        margin-right: 35rem;
-    }
-    .send{
-        background: rgb(116,161,240);
-        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-        color: white!important;
-        border: 0;
-        outline: 0;
-        padding: 20px 20px;
-        height: auto;
-        border-radius: 40px;
-        font-size: 40px;
-        width: 30%;
-    }
-}
-@media (max-width: 1440px) {
-    .all-card {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;  
-        background-image: url("../Group 1.png"), url("../Group 2.png");
-        background-repeat: no-repeat , no-repeat;
-        background-position: left top , right bottom;
-        background-size: 20rem, 15rem;
-        height: 100%;
-        width: 100%;
-    }
-
-    .title {
-        width: 100%;
-        height: auto;
-    }
-    .right-card {
-        min-width: 50%;
-        display: flex;
-        align-items: flex-end;
-    }
-
-  .two-card {
-        max-width: 100%;
-        height: auto;
-        padding:20px;
-
-    }
-    .btn{
-        background: rgb(116,161,240);
-        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-        color: white!important;
-        font-size: 20px;
-        border: 0;
-        outline: 0;
-        cursor: pointer;
-        padding: 20px;
-        text-align: center;
-        width: 100%;
-        border-radius: 40px;
-        box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
-
-    }
-  .img{
-        padding: 10px;
-        width: 140px;
-        overflow: hidden;
-        border-radius: 20px;
-        height: 160px;
-    }
-    .image-card p{
-        font-size: 40px;
-        font-weight: 600;
-    }
-    .p-card p{
-        color: #aaa;
-        font-size: 30px;
-    }
-
-    .Arrow{
-        text-align: right;
-        display: flex;
-        justify-content: flex-end; 
-        align-items: center;
-    }
-    .Arrow .ArrowDropUpIcon{
-        padding: 0;
-        font-size: 200px;
-        color: #8D7DDC;
-        margin-right: 15rem;
-    }
-    .left-card .Card{
-        background-color: #b9b5dfc9;
-        border-radius: 20px;
-        box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
-        margin-left: 20px;
-        min-width: 25rem;
-        height: 30rem;
-
-    }
-    .Card  p{
-        
-        text-align: left;
-        font-size: 20px;
-    }
-    h1{
-        font-size: 40px;
-    }
-    .send{
-        background: rgb(116,161,240);
-        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-        color: white!important;
-        border: 0;
-        outline: 0;
-        width: 20%;
-        padding: 20px 20px;
-        height: auto;
-        border-radius: 50px;
-        font-size: 20px;
-    }
-    .last p{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 30px;
-    }
-    .title{
-        background-image: url("../Group\ 1.png");
-        background-repeat: no-repeat , no-repeat;
-        background-position:right bottom ;
-        background-size: 40rem, 15rem;
-        height: 100vh;
-        width: 80%;
-        padding-left: 35px;
-        
-    }
-    .title h1{
-        text-align: left;
-        font-size: 50px;
-        
-    }
-}
-@media (max-width: 1024px) {
-    .all-card {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;  
-        background-image: url("../Group 1.png"), url("../Group 2.png");
-        background-repeat: no-repeat , no-repeat;
-        background-position: left top , right bottom;
-        background-size: 20rem, 15rem;
-        height: 100%;
-        width: 100%;
-    }
-
-  .title {
-    width: 100%;
-    height: auto;
-  }
-  .right-card {
-    min-width: 60%;
-    display: flex;
-    align-items: flex-end;
-  }
-
-  .two-card {
-        max-width: 100%;
-        height: auto;
-        padding:20px;
-
-    }
-    .btn{
-        background: rgb(116,161,240);
-        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-        color: white!important;
-        font-size: 20px;
-        border: 0;
-        outline: 0;
-        cursor: pointer;
-        padding: 15px;
-        text-align: center;
-        width: 100%;
-        border-radius: 40px;
-        box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
-    }
-  .img{
-        padding: 10px;
-        width: 180px;
-        overflow: hidden;
-        border-radius: 20px;
-        height: 100px;
-        object-fit: contain;
-    }
-    .image-card p{
-        font-size: 30px;
-        font-weight: 600;
-    }
-    .p-card p{
-        color: #aaa;
-        font-size: 20px;
-    }
-
-  .Arrow{
-    text-align: right;
-    display: flex;
-    justify-content: flex-end; 
+  .right-card{
     align-items: center;
-}
-.Arrow .ArrowDropUpIcon{
-    /* padding: 0; */
-    font-size: 200px;
-    color: #8D7DDC;
-    margin-right: 15rem;
-}
-  .left-card .Card{
-    background-color: #b9b5dfc9;
-    border-radius: 20px;
-    box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
-    margin-left: 20px;
-    min-width: 10rem;
-    height: 25rem;
-}
-    .Card  p{
-        text-align: left;
-        font-size: 15px;
-    }
-    h1{
-        font-size: 30px;
-    }
-    .send{
-        background: rgb(116,161,240);
-        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-        color: white!important;
-        border: 0;
-        outline: 0;
-        width: 40%;
-        padding: 20px 20px;
-        height: auto;
-        border-radius: 50px;
-        font-size: 20px;
-    }
-    .last p{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 30px;
-    }
-    .title{
-        background-image: url("../Group\ 1.png");
-        background-repeat: no-repeat , no-repeat;
-        background-position:right bottom ;
-        background-size: 40rem, 15rem;
-        height: 100vh;
-        width: 100%;
-        padding-left: 35px;
-        
-    }
-    .title h1{
-        text-align: left;
-        font-size: 60px;
-        
-    }
-    .photo{
-        width: 50%;
-    }
-}
-@media (max-width: 768px) {
-    .all-card {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;  
-        background-image: url("../Group 1.png"), url("../Group 2.png");
-        background-repeat: no-repeat , no-repeat;
-        background-position: left top , right bottom;
-        background-size: 20rem, 15rem;
-        height: 100%;
-        width: 80%;
-    }
-
-  .title {
-    width: 100%;
-    height: auto;
-  }
-  .right-card {
-    min-width: 65%;
-    display: flex;
-    align-items: flex-end;
   }
 
-    .two-card {
-        /* padding: 20px; */
-        max-width:100%;
-        height: auto;
-        border-radius: 20px;
-        border: solid 1.5px #ccc;
-    }
+  .two-card{
+    max-width: 100%;
+  }
+
   .img{
-        width: 50px;
-        overflow: hidden;
-        border-radius: 20px;
-        height: 50px;
-        object-fit: contain;
-    }
-    .image-card p{
-        font-size: 15px;
-        font-weight: 600;
-    }
-    .p-card p{
-        color: #aaa;
-        font-size: 15px;
-    }
-
-  .Arrow{
-    text-align: right;
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-}
-.Arrow .ArrowDropUpIcon{
-    font-size: 190px;
-    color: #8D7DDC;
-    margin-right: 10rem;
-}
-  .left-card .Card{
-    background-color: #b9b5dfc9;
-    border-radius: 20px;
-    box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
-    margin-left: 50px;
-    min-width: 5rem;
-    height: 23rem;
-        margin-left: 150px;
+    width: 100px;
+    height: 80px;
+  }
 
 }
-    .Card p{
-        /* color: white; */
-        text-align: left;
-        font-size: 17px;
-    }
-    .Card h1{
-        font-size: 20px;
-    }
-    .send{
-        background: rgb(116,161,240);
-        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-        color: white!important;
-        border: 0;
-        outline: 0;
-        width: 40%;
-        padding: 10px 10px;
-        height: auto;
-        border-radius: 50px;
-        font-size: 15px;
-    }
-    .last p{
-        /* display: flex; */
-        justify-content: space-evenly;
-        align-items: center;
-        font-size: 15px;
-    }
-    .title{
-        background-image: url("../Group\ 1.png");
-        background-repeat: no-repeat , no-repeat;
-        background-position:right bottom ;
-        background-size: 20rem, 15rem;
-        height: 100vh;
-        width: 80%;
-    
-    }
-    .title h1{
-        text-align: left;
-        font-size: 50px;
-        /* padding:0px 40px; */
-        margin-left: 100px;
-        
-    }
-    .btn{
-        background: rgb(116,161,240);
-        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-        color: white!important;
-        font-size: 15px;
-        border: 0;
-        outline: 0;
-        cursor: pointer;
-        padding: 15px;
-        text-align: center;
-        width: 100%;
-        border-radius: 40px;
-        box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
-    }
-    .photo{
-         width: 60%;
-    }
-}
-@media ( max-width: 450px) {
-    .all-card {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        background-image: url("../Group 1.png"), url("../Group 2.png");
-        background-repeat: no-repeat , no-repeat;
-        background-position: left top , right bottom;
-        background-size: 20rem, 15rem;
-        height: 100%;
-        max-width: 100%;
-    }
-    .right-card {
-        min-width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-left: 50px;
-        padding:0px;
-
-    }
-    .two-card {
-        max-width:100%;
-        height: auto;
-        border-radius: 20px;
-        border: solid 1.5px #ccc;
-    }
-  .img{
-        width: 100px;
-        overflow: hidden;
-        border-radius: 20px;
-        height: 50px;
-        object-fit: contain;
-    }
-    .image-card p{
-        font-size: 15px;
-        font-weight: 600;
-    }
-    .p-card p{
-        color: #aaa;
-        font-size: 15px;
-    }
-    .left-card .Card{
-        background-color: #b9b5dfc9;
-        border-radius: 20px;
-        box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
-        min-width: 10rem;
-        height: 25rem;
-        margin-left: 50px;
-    }
-    .Card p{
-        font-size: 20px;
-    }
-    .Card h1{
-        font-size: 25px;
-    }
-    .send{
-        background: rgb(116,161,240);
-        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-        color: white!important;
-        border: 0;
-        outline: 0;
-        width: 30%;
-        padding: 10px 10px;
-        height: auto;
-        border-radius: 20px;
-        font-size: 13px;
-    }
-    .last p{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        font-size: 15px;
-        padding: 0px;
-    }
-    .title{
-        background-image: url("../Group\ 1.png");
-        background-repeat: no-repeat , no-repeat;
-        background-position:right bottom ;
-        background-size: 20rem, 15rem;
-        height: 100vh;
-        width: 50%;    
-        padding-left: 20px;
-
-    }
-    .title h1{
-        text-align: left;
-        font-size: 50px;
-    }
-    .btn{
-        background: rgb(116,161,240);
-        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-        color: white!important;
-        font-size: 20px;
-        border: 0;
-        outline: 0;
-        cursor: pointer;
-        padding: 20px;
-        text-align: center;
-        width: 100%;
-        border-radius: 40px;
-        box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
-    }
-    .photo{
-        width: 40%;
-    }
-    
-.Arrow .ArrowDropUpIcon{
-    padding: 0;
-    font-size: 150px;
-    color: #8D7DDC;
-    margin-right: 9rem;
-}
-}
- @media ( max-width: 380px) { 
-    .all-card {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        background-image: url("../Group 1.png"), url("../Group 2.png");
-        background-repeat: no-repeat , no-repeat;
-        background-position: left top , right bottom;
-        background-size: 20rem, 15rem;
-        height: 100%;
-        min-width: 30%;
-    }
-    .right-card {
-        max-width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-left: 75px;
-        padding:0px;
-
-    }
-    .two-card {
-        min-width:100%;
-        height: auto;
-        border-radius: 20px;
-        border: solid 1.5px #ccc;
-    }
-  .img{
-        width: 100px;
-        overflow: hidden;
-        border-radius: 20px;
-        height: 50px;
-        object-fit: contain;
-    }
-    .image-card p{
-        font-size: 15px;
-        font-weight: 600;
-    }
-    .p-card p{
-        color: #aaa;
-        font-size: 15px;
-    }
-    .left-card .Card{
-        background-color: #b9b5dfc9;
-        border-radius: 20px;
-        box-shadow: 4px 5px 5px 3px rgba(0, 0, 0, 0.2);
-        max-width: 20rem;
-        height: 20rem;
-        margin-left: 100px;
-    }
-    .Card p{
-        font-size: 15px;
-    }
-    .Card h1{
-        font-size: 20px;
-    }
-    .send{
-        background: rgb(116,161,240);
-        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-        color: white!important;
-        border: 0;
-        outline: 0;
-        width: 30%;
-        padding: 10px 10px;
-        height: auto;
-        border-radius: 20px;
-        font-size: 13px;
-    }
-    .last p{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        font-size: 15px;
-        padding: 0px;
-    }
-    .title{
-        background-image: url("../Group\ 1.png");
-        background-repeat: no-repeat , no-repeat;
-        background-position:right bottom ;
-        background-size: 20rem, 15rem;
-        height: 100vh;
-        width: 70%;    
-        padding-left: 20px;
-
-    }
-    .title h1{
-        text-align: left;
-        font-size: 30px;
-    }
-    .btn{
-        background: rgb(116,161,240);
-        background: linear-gradient(90deg, rgba(116,161,240,1) 0%, rgba(138,128,222,1) 100%);
-        color: white!important;
-        font-size: 15px;
-        border: 0;
-        outline: 0;
-        cursor: pointer;
-        padding: 15px;
-        text-align: center;
-        width: 100%;
-        border-radius: 40px;
-        box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
-    }
-    .photo{
-        width: 40%;
-    }
-    .Arrow{
-    text-align: right;
-    display: flex;
-    align-items: center;
-}
-.Arrow .ArrowDropUpIcon{
-    padding: 0;
-    font-size: 150px;
-    color: #8D7DDC;
-    margin-right: 7rem;
-}
-} 
-

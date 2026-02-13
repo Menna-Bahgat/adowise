@@ -7,15 +7,16 @@ import StarOutlineIcon from '@mui/icons-material/StarOutline';
 
 
 const Listcard = () => {
+    
   return (
     <div className='container'>
         <div className='listcards'>
             <Card  className='list-card'>
-                <CardContent>
+                {/* <CardContent> */}
                     <div className='p-content'>
                         <p>“Having access to the knowledge and experience of mentors on MentorCruise was an opportunity I couldn't miss. Thanks to my mentor, I managed to  reach my goal of joining Tesla.“</p>
                     </div>
-                </CardContent>
+                {/* </CardContent> */}
                 <div className='bottom'>
                     <div className='image'>
                         <img src={logo}/>
@@ -23,20 +24,23 @@ const Listcard = () => {
                     </div>
                     <div className='rating'>
                         <h3>Rating</h3>
-                        <StarOutlineIcon className='starOutlineIcon'/>
-                        <StarOutlineIcon className='starOutlineIcon'/>
-                        <StarOutlineIcon className='starOutlineIcon'/>
-                        <StarOutlineIcon  className='starOutlineIcon'/>
-                        <StarOutlineIcon className='starOutlineIcon'/>
+                        <div className='ratingstar'>
+                            <StarOutlineIcon className='starOutlineIcon'/>
+                            <StarOutlineIcon className='starOutlineIcon'/>
+                            <StarOutlineIcon className='starOutlineIcon'/>
+                            <StarOutlineIcon  className='starOutlineIcon'/>
+                            <StarOutlineIcon className='starOutlineIcon'/>
+                        </div>
+                        
                     </div>
                 </div>
             </Card>
             <Card  className='list-card'>
-                <CardContent>
+                {/* <CardContent> */}
                     <div className='p-content'>
                         <p>“Having access to the knowledge and experience of mentors on MentorCruise was an opportunity I couldn't miss. Thanks to my mentor, I managed to  reach my goal of joining Tesla.“</p>
                     </div>
-                </CardContent>
+                {/* </CardContent> */}
                 <div className='bottom'>
                     <div className='image'>
                         <img src={logo}/>
@@ -44,20 +48,23 @@ const Listcard = () => {
                     </div>
                     <div className='rating'>
                         <h3>Rating</h3>
+                        <div className='ratingstar'>
                         <StarOutlineIcon className='starOutlineIcon'/>
                         <StarOutlineIcon className='starOutlineIcon'/>
                         <StarOutlineIcon className='starOutlineIcon'/>
                         <StarOutlineIcon  className='starOutlineIcon'/>
                         <StarOutlineIcon className='starOutlineIcon'/>
+                        </div>
+                        
                     </div>
                 </div>
             </Card>
             <Card  className='list-card'>
-                <CardContent>
+                {/* <CardContent> */}
                     <div className='p-content'>
                         <p>“Having access to the knowledge and experience of mentors on MentorCruise was an opportunity I couldn't miss. Thanks to my mentor, I managed to  reach my goal of joining Tesla.“</p>
                     </div>
-                </CardContent>
+                {/* </CardContent> */}
                 <div className='bottom'>
                     <div className='image'>
                         <img src={logo}/>
@@ -65,11 +72,14 @@ const Listcard = () => {
                     </div>
                     <div className='rating'>
                         <h3>Rating</h3>
-                        <StarOutlineIcon className='starOutlineIcon'/>
-                        <StarOutlineIcon className='starOutlineIcon'/>
-                        <StarOutlineIcon className='starOutlineIcon'/>
-                        <StarOutlineIcon  className='starOutlineIcon'/>
-                        <StarOutlineIcon className='starOutlineIcon'/>
+                        <div>
+                            <StarOutlineIcon className='starOutlineIcon'/>
+                            <StarOutlineIcon className='starOutlineIcon'/>
+                            <StarOutlineIcon className='starOutlineIcon'/>
+                            <StarOutlineIcon  className='starOutlineIcon'/>
+                            <StarOutlineIcon className='starOutlineIcon'/>
+                        </div>
+                        
                     </div>
                 </div>
             </Card>

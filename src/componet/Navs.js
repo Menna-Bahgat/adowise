@@ -16,10 +16,10 @@ const Navs = () => {
               <img className='header-logo' src={logoo}/>
             </Link>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}></Typography>
-          <Link to="/Login">
+          <Link to="/">
             <button className='login'>Login</button>
           </Link>
-          <Link to="/Signup">
+          <Link to="/">
             <button className='signup'>Sign Up</button>
           </Link>
         </Toolbar>

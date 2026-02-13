@@ -1,309 +1,122 @@
 .container{
-    width: 100%;
-    height: auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
 }
+
 .listcards{
-    width: 308%;
-    background-image: url("../Group\ 1.png");
-    background-repeat: no-repeat ;
-    background-position:  left top ;
-    background-size: 30rem;
-    height: auto;
-    padding-left: 30px;
-    margin-bottom: 150px;
-    
+  width: 100%;
+  max-width: 1100px;
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  background-image: url("../Group 1.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 20rem;
 }
-.listcards .list-card{
-    max-width: 500px;
-    height: auto;
-    border-radius: 30px;
-}
-p{
-    color: black;
-    font-size: 21px;
-}
-.bottom{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.image{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.image p{
-    font-weight: 700;
-}
-.image small{
-    color: #797575;
-    font-size: 13px;
-}
-img{
-    width: 60px;
-    margin-right: 20px;
-}
-.rating h3{
-    text-align: left;
-    line-height: 0;
-}
-.rating .starOutlineIcon{
-    font-size: 100px;
-}
+
+/* ================= CARD ================= */
+
 .list-card{
-    margin-bottom: 20px;
+  width: 100%;
+  border-radius: 35px !important;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border: 1px solid rgba(138,128,222,0.15);
+  transition: all 0.3s ease;
 }
-@media (min-width: 1201px){
-    .listcards .list-card{
-        max-width: 50%;
-        height: auto;
-        border-radius: 30px;
-        padding: 20px;
+.ratingstar{
+    display: flex;
+}
+.list-card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(138,128,222,0.2);
+}
 
-    }
-    .listcards{
-        width: 150%;
-        background-image: url("../Group\ 1.png");
-        background-repeat: no-repeat ;
-        background-position:  left top ;
-        background-size: 30rem;
-        height: auto;
-        padding-left: 30px;
-        margin-bottom: 150px;
-        
-    }
-    .rating h3{
-        font-size: 40px;
-    }
-    .rating .starOutlineIconx,h3{
-        text-align: left;
-        font-size: 30px;
-    }
-    img{
-        width: 150px;
-        object-fit: contain;
-        margin-right: 20px;
-    }
-    .image p{
-        font-weight: 700;
-        font-size: 40px;
-    }
-    .image small{
-        color: #797575;
-        font-size: 30px;
-    }
-    .p-content p{
-        font-size: 40px;
-    }
-    
-}
-@media (max-width: 1440px){
-    .listcards .list-card{
-        max-width: 70%;
-        height: auto;
-        border-radius: 30px;
-        padding: 20px;
+/* ================= CONTENT ================= */
 
-    }
-    .listcards{
-        width: 150%;
-        background-image: url("../Group\ 1.png");
-        background-repeat: no-repeat ;
-        background-position:  left top ;
-        background-size: 30rem;
-        height: auto;
-        margin-bottom: 150px;
-        
-    }
-    .rating h3{
-        font-size: 30px;
-    }
-    .rating .MuiSvgIcon-root{
-        text-align: left;
-        font-size: 30px;
-    }
-    img{
-        width: 90px;
-        object-fit: contain;
-    }
-    .image p{
-        font-weight: 700;
-        font-size: 30px;
-    }
-    .image small{
-        color: #797575;
-        font-size: 20px;
-    }
-    .p-content p{
-        font-size: 25px;
-    }
-    
+.p-content p{
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
 }
-@media (max-width: 1024px){
-    .listcards .list-card{
-        max-width: 100%;
-        height: auto;
-        border-radius: 30px;
-        padding: 20px;
 
-    }
-    .listcards{
-        width: 150%;
-        background-image: url("../Group\ 1.png");
-        background-repeat: no-repeat ;
-        background-position:  left top ;
-        background-size: 30rem;
-        height: auto;
-        margin-bottom: 150px;
-        
-    }
-    .rating h3{
-        font-size: 30px;
-    }
-    .rating .MuiSvgIcon-root{
-        text-align: left;
-        font-size: 30px;
-    }
-    img{
-        width: 90px;
-        object-fit: contain;
-    }
-    .image p{
-        font-weight: 700;
-        font-size: 30px;
-    }
-    .image small{
-        color: #797575;
-        font-size: 20px;
-    }
-    .p-content p{
-        font-size: 25px;
-    }
-    
+/* ================= BOTTOM ================= */
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
 }
+
+/* ================= USER INFO ================= */
+
+.image{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.image img{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.image p{
+  font-weight: 600;
+  font-size: 15px;
+  color: #333;
+}
+
+.image small{
+  display: block;
+  font-size: 13px;
+  color: #777;
+}
+
+/* ================= RATING ================= */
+
+.rating{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rating h3{
+  font-size: 14px;
+  /* margin-bottom: 5px; */
+  color: #555;
+}
+
+.starOutlineIcon{
+  font-size: 20px !important;
+  color: #8E7EDC;
+}
+
+/* ================= MOBILE ================= */
+
 @media (max-width: 768px){
-    .listcards .list-card{
-        max-width: 60%;
-        height: auto;
-        border-radius: 30px;
-        padding: 20px;
-    }
-    .listcards{
-        width: 150%;
-        background-image: url("../Group\ 1.png");
-        background-repeat: no-repeat ;
-        background-position:  left top ;
-        background-size: 30rem;
-        height: auto;
-        margin-bottom: 150px;
-        margin-left: 100px;
-        
-    }
-    .rating h3{
-        font-size: 15px;
-    }
-    .rating .MuiSvgIcon-root{
-        text-align: left;
-        font-size: 15px;
-    }
-    img{
-        width: 50px;
-        object-fit: contain;
-    }
-    .image p{
-        font-weight: 700;
-        font-size: 10px;
-    }
-    .image small{
-        color: #797575;
-        font-size: 10px;
-    }
-    .p-content p{
-        font-size: 15px;
-    }
-    
-}
-@media (max-width: 450px){
-    .listcards .list-card{
-        max-width: 80%;
-        height: auto;
-        border-radius: 30px;
-        padding: 20px;
-    }
-    .listcards{
-        width: 100%;
-        background-image: url("../Group\ 1.png");
-        background-repeat: no-repeat ;
-        background-position:  left top ;
-        background-size: 40rem;
-        height: auto;
-        margin-bottom: 150px;
-        margin-left: 30px;
-        
-    }
-    .rating h3{
-        font-size: 15px;
-    }
-    .rating .MuiSvgIcon-root{
-        text-align: left;
-        font-size: 15px;
-    }
-    img{
-        width: 50px;
-        object-fit: contain;
-    }
-    .image p{
-        font-weight: 700;
-        font-size: 10px;
-    }
-    .image small{
-        color: #797575;
-        font-size: 10px;
-    }
-    .p-content p{
-        font-size: 15px;
-    }
-    
-}
-@media (max-width: 380px){
-    .listcards .list-card{
-        max-width: 100%;
-        height: auto;
-        border-radius: 30px;
-        padding: 20px;
-    }
-    .listcards{
-        width: 100%;
-        background-image: url("../Group\ 1.png");
-        background-repeat: no-repeat ;
-        background-position:  left top ;
-        background-size: 40rem;
-        height: auto;
-        margin-bottom: 150px;
-        margin-left: 0px;
-        
-    }
-    .rating h3{
-        font-size: 15px;
-    }
-    .rating .MuiSvgIcon-root{
-        text-align: left;
-        font-size: 10px;
-    }
-    img{
-        width: 50px;
-        object-fit: contain;
-    }
-    .image p{
-        font-weight: 700;
-        font-size: 10px;
-    }
-    .image small{
-        color: #797575;
-        font-size: 10px;
-    }
-    .p-content p{
-        font-size: 15px;
-    }
-    
+
+  .bottom{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .rating{
+    align-items: flex-start;
+  }
+
+  .p-content p{
+    font-size: 14px;
+  }
+
 }
