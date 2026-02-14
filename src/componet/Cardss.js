@@ -1,4 +1,3 @@
-import React from 'react'
 import './Cardss.css'
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -7,9 +6,7 @@ import Typography from '@mui/material/Typography';
 import Listcard from './Listcard'
 import StarOutlineIcon from '@mui/icons-material/StarOutline';
 import logo from '../Untitled 1.png'
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import arrow from '../output-onlinepngtools(2) 1.png'
-import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 
 
 
@@ -19,7 +16,6 @@ const Cardss = () => {
   return (
     <div className='cardsss'>
         <div className='Arrow'>
-            {/* <ArrowDropUpIcon className='ArrowDropUpIcon'/> */}
         </div>
         <div className='all-card'>
             <div className='left-card'>
@@ -51,7 +47,7 @@ const Cardss = () => {
                 <Card  className='two-card' style={{borderRadius:"20px"}}>
                     <div className='top'>
                         <div className='image-card'>
-                            <img src={logo} className='img'/>
+                            <img src={logo} className='img' alt="logo"/>
                             <p>
                                 Unlock Your Dream Job with My Referral Service<br></br>
                                 <span>₹10 4.2</span>
@@ -75,7 +71,7 @@ const Cardss = () => {
                 <Card  className='two-card' style={{borderRadius:"20px"}}>
                     <div className='top'>
                         <div className='image-card'>
-                            <img src={logo} className='img'/>
+                            <img src={logo} className='img' alt="logo"/>
                             <p>
                                 Unlock Your Dream Job with My Referral Service<br></br>
                                 <span>₹10 4.2</span>
@@ -97,9 +93,8 @@ const Cardss = () => {
                     </CardContent>
                 </Card> 
                 <div className='Arrow'>
-                    {/* <ArrowDropDownIcon className='ArrowDropUpIcon'/> */}
                 </div>
-                <img src={arrow} className='photo'/>
+                <img src={arrow} className='photo' alt="logo"/>
             </div>
         </div>
     </div>

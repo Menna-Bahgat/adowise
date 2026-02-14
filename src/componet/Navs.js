@@ -1,4 +1,3 @@
-import React from 'react'
 import './Navbar.css'
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -13,7 +12,7 @@ const Navs = () => {
       <Box sx={{ flexGrow: 1 }}>
         <Toolbar>
             <Link to="/">
-              <img className='header-logo' src={logoo}/>
+              <img className='header-logo' src={logoo} alt="logoo"/>
             </Link>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}></Typography>
           <Link to="/">

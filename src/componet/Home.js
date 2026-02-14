@@ -1,4 +1,3 @@
-import React from 'react'
 import './Home.css'
 import logoo from '../Frame.png'
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
@@ -10,7 +9,7 @@ const Home = () => {
   return (
     <div className='home'>
       <div className='images'>
-        <img src={logoo} className='logo'/>
+        <img src={logoo} className='logo' alt="logo"/>
         <div className='content'>
           <p>Looking for a mentor? Start by asking here...</p>
           <Paper
@@ -59,7 +58,6 @@ const Home = () => {
         </div>
 
       </div>
-        {/* <br></br><br></br><br></br> */}
 
     </div>
   )

@@ -1,4 +1,3 @@
-import React from 'react'
 import './Footer.css'
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/GridLegacy';
@@ -18,7 +17,7 @@ const Footer = () => {
                     <Grid item xs={8}>
                         <div className='footleft'>
                             <div className='head'>
-                                <img src={fram}/>
+                                <img src={fram} alt='tree'/>
                                 <h1>ADOWISE</h1>
                             </div>
                             <input placeholder='Suggestion’s' className='input'/>
@@ -41,7 +40,7 @@ const Footer = () => {
                                     <LinkedInIcon style={{fontSize:"40px"}}/>
                                     <FacebookIcon style={{fontSize:"40px"}}/>
                                 </div>
-                                <img src={foot} className='tree'/>
+                                <img src={foot} className='tree' alt="tree"/>
                             </div>
                         </div> 
                     </Grid>
